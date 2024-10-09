@@ -1,0 +1,122 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.header-text{
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+.user-form-container{
+    background-color: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px #999;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+}
+input[type="text"],
+input[type="email"]{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 50%;
+    margin: 5px;
+}
+.input-no-border {
+    border: none !important;
+    background: none!important;
+}
+.input-line-border{
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-radius: 0px;
+}
+button{
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    width: 33.3%;
+}
+
+th,td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+}
+
+th{
+    background-color: #ccc;
+    color: #201d1d;
+
+}
+
+tr:hover{
+    background-color: #f1f1f1;
+}
+.submit-btn{
+    background-color: #0c7c1da3;
+    width: 25%;
+    margin: 10px;
+}
+.clear-btn{
+    background-color: #ac0101;
+    width: 25%;
+    margin: 10px;
+}
+.edit-cancel-btn{
+    background-color: #d84f4fa3;
+    width: 25%;
+    margin: 10px;
+}
+.edit-btn{
+    background-color: #f6830d;
+}
+.delete-btn{
+    background-color: #ac0101;
+}
+.edit-submit-btn{
+    background-color: #022707a3;
+}
+.edit-cancel-btn:hover{
+    background-color: #8d0707a3;
+    width: 25%;
+    margin: 10px;
+}
+.clear-btn:hover{
+    background-color: #d27a7a;
+    width: 25%;
+    margin: 10px;
+}
+.submit-btn:hover{
+    background-color: #73d880a3;
+}
+
+.edit-btn:hover{
+    background-color: #dd7447;
+}
+
+.delete-btn:hover{
+    background-color: #d27a7a;
+}
