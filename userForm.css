@@ -105,18 +105,29 @@ tr:hover{
     margin: 10px;
 }
 .clear-btn:hover{
-    background-color: #d27a7a;
+    background-color: #e59797;
+    color: #ac0101;
     width: 25%;
     margin: 10px;
 }
+
+.clear-btn:disabled {
+    background-color: #ececec;
+    color: #999;
+    border-color: #5a5454;
+    cursor: not-allowed;
+}
 .submit-btn:hover{
     background-color: #73d880a3;
+    color: #044a0e;
 }
 
 .edit-btn:hover{
-    background-color: #dd7447;
+    background-color: #f6bc83;
+    color: #f6830d;
 }
 
 .delete-btn:hover{
     background-color: #d27a7a;
+    color: #ac0101;
 }

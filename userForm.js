@@ -17,6 +17,7 @@ function createUserForm(){
     clearBtn.type = 'button';
     clearBtn.className = 'clear-btn';
     clearBtn.textContent = 'Clear'
+    clearBtn.disabled = true;
     userForm.appendChild(nameField);
     userForm.appendChild(emailField);
     userForm.appendChild(submitBtn);
@@ -31,6 +32,16 @@ function createUserForm(){
         nameField.value = '';
         emailField.value = '';
     }
+    [nameField, emailField].forEach(input => {
+        input.addEventListener('input', () =>{
+            if(nameField.value || emailField.value){
+                clearBtn.disabled = false;
+            }
+            else{
+                clearBtn.disabled = true;
+            }
+        })
+    })
     containerForm.appendChild(userForm);
 }
 
